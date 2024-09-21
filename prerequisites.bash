@@ -21,6 +21,6 @@ sudo sysctl net.ipv4.ip_forward
 sudo swapoff -a
 
 # Load swapoff as systemd service
-sudo cp units/swapoff.service /etc/systemd/system/swappoff.service
+sudo cp units/swapoff.service /etc/systemd/system/swapoff.service
 sudo systemctl daemon-reload
-sudo systemctl enable --now swappoff.service
+sudo systemctl enable --now swapoff.service

@@ -5,7 +5,7 @@ source "utils.bash"
 ARCH=$(get_arch)
 OS=$(get_os)
 
-CNI_VERSION="1.5.1"
+CNI_VERSION="1.0.0"
 CNI_ARCHIVE="cni-plugins-${OS}-${ARCH}-v${CNI_VERSION}.tgz"
 CNI_ARCHIVE_SUM="${CNI_ARCHIVE}.sha256"
 CNI_URL="https://github.com/containernetworking/plugins/releases/download/v${CNI_VERSION}"
