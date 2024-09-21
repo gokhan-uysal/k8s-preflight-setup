@@ -1,0 +1,8 @@
+[Unit]
+Description=Turn swap off 
+
+[Service]
+ExecStart=/sbin/swapoff -a
+
+[Install]
+WantedBy=multi-user.target
